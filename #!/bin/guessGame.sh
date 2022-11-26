@@ -1,6 +1,7 @@
 #!/bin/bash
 
-guessGame() {
+guessGame() 
+{
     numCorrect=$(ls -A|wc -l)
     echo "Hi User! Can you guess the number of files present in the current working directory?"
     while true;
